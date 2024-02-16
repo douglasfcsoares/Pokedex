@@ -1,0 +1,43 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bbcae7;
+}
+
+.content {
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: #fff;
+  border-radius: 2rem;
+  max-width: 992px;
+}
+
+.pagination {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loadMoreButton {
+  background-color: #6c79db;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+  .content {
+    height: auto;
+    border-radius: 1rem;
+    margin: 1rem auto;
+  }
+}
